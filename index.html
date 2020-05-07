@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div class="app-form">
+                <div class="app-form-group">
+                    <input type="text" class="app-form-control" placeholder="WEB PROGRAMMING" id="wd" />
+                </div>
+                <div class="app-form-group">
+                    <input type="text" class="app-form-control" placeholder="MATHS" id="maths" />
+                </div>
+                <div class="app-form-group">
+                    <input type="text" class="app-form-control" placeholder="COMPUTER" id="comp" />
+                </div>
+                <div class="app-form-group">
+                    <input type="text" class="app-form-control" placeholder="PHYSICS" id="phy" />
+                </div>
+                <div>
+                    <input type="button" name="" value="showPercentage" class="app-form-button" onclick="calcy()" />
+                </div>
+                <div class="app-form-group">
+                    <input type="text" class="app-form-control" placeholder="" id="myF" />
+                </div>
+                <div>
+                    <input type="button" name="" value="split" class="app-form-button" onclick="saperateString()" />
+                </div>
+            </div>
+        </div>
+        <div class="app-form-group showdata">
+            <p id="showData"></p>
+        </div>
+        <div>
+            <button type="button" onclick="showDate()">click to display current date & time</button>
+            <p id="btn"></p>
+        </div>
+        <div>
+            <button type="button" onclick="lightOn()">Light On</button>
+            <p id="btn2"></p>
+        </div>
+        <img id="myImage" src="D:\Projects\gradeCalculator\images\pic_bulboff.gif" style="width:100px">
+        <!-- <img id="myImage" src="D:\Projects\gradeCalculator\images\pic_bulbon.gif" style="width:100px"> -->
+        <div>
+            <button type="button" onclick="lightOff()">Light Off</button>
+            <p id="btn3"></p>
+        </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="D:\Projects\gradeCalculator\.js files\logic.js"></script> -->
+    <!-- <script type="text/javascript" src="D:\Projects\gradeCalculator\.js files\date.js"></script> -->
+    <script type="text/javascript" src="D:\Projects\gradeCalculator\.js files\split.js"></script>
+    <!-- <script>
+
+        const saperateString = () => {
+            let data = document.getElementById("myF").value;
+                       
+            let res = data.
+        
+            document.getElementById("myF").innerHTML = res;
+            alert(res);
+        }
+
+    </script> -->
+</body>
+
+</html>
